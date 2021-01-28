@@ -14,8 +14,8 @@ And also for more thant 100 request from the GitHub api its recomended to regest
 Just an example you need to use your proper Id's for the API
 
 ```Javascript
-client_id ='86d16fa430a98d36b3b5572'
-client_secret ='a2c1eec5869485015529389388306eb7b7bba06d614'
+client_id ='********************'
+client_secret ='***************************'
 
 const profileResponse = 
         await fetch(`https://api.github.com/users/${user}?client_id=${this.client_id}&client_secret=${this.client_secret}`);
